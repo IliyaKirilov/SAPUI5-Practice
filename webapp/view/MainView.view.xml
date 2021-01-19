@@ -1,0 +1,70 @@
+<mvc:View controllerName="kpmg.home.MasteringUI5.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:l="sap.ui.layout" xmlns:uxap="sap.uxap">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<FlexBox alignItems="End" justifyContent="End">
+							<uxap:ObjectPageHeaderActionButton icon="sap-icon://calendar" press="handlePopoverPress"/>
+							<uxap:ObjectPageHeaderActionButton icon="sap-icon://sys-help" press="onPressHelp"/>
+						</FlexBox>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<GenericTile sizeBehavior="Small" header="Developer Resume" headerImage="sap-icon://leads" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="UI5 Web Components" headerImage="sap-icon://internet-browser" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+						</FlexBox>
+						<ToolbarSeparator></ToolbarSeparator>
+						<ToolbarSeparator></ToolbarSeparator>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<GenericTile sizeBehavior="Small" header="Buisiness Administration" headerImage="sap-icon://key-user-settings" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Barcode Scanner" headerImage="sap-icon://add-photo" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Signature Pad" headerImage="sap-icon://signature" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Messenger" headerImage="sap-icon://message-popup" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="File Process" headerImage="sap-icon://timesheet" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+						</FlexBox>
+						<ToolbarSeparator></ToolbarSeparator>
+						<ToolbarSeparator></ToolbarSeparator>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<Text text="BUSINESS TRANSACTIONS" textAlign="Center"></Text>
+						</FlexBox>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<GenericTile sizeBehavior="Small" header="Billing Documents" headerImage="sap-icon://accounting-document-verification" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="General Ledger accounts" headerImage="sap-icon://expense-report" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Debitor" headerImage="sap-icon://customer-financial-fact-sheet" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Cost Centers" headerImage="sap-icon://capital-projects" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+						</FlexBox>
+						<ToolbarSeparator></ToolbarSeparator>
+						<ToolbarSeparator></ToolbarSeparator>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<Text text="MASTER DATA" textAlign="Center"></Text>
+						</FlexBox>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<GenericTile sizeBehavior="Small" header="Vendors" headerImage="sap-icon://activity-individual" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Customers" headerImage="sap-icon://customer" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Companies" headerImage="sap-icon://building" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Busisness Partner" headerImage="sap-icon://business-card" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Banks" headerImage="sap-icon://loan" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+							<GenericTile sizeBehavior="Small" header="Equipments" headerImage="sap-icon://add-equipment" mode="ContentMode" wrappingType="Hyphenated"></GenericTile>
+						</FlexBox>
+						<ToolbarSeparator></ToolbarSeparator>
+						<ToolbarSeparator></ToolbarSeparator>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<Text text="HR APPS" textAlign="Center"></Text>
+						</FlexBox>
+						<FlexBox alignItems="Center" justifyContent="Center">
+							<GenericTile sizeBehavior="Small" header="Absence Manager" headerImage="sap-icon://employee-rejections" mode="ContentMode"
+								wrappingType="Hyphenated"></GenericTile>
+						</FlexBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
